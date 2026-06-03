@@ -1,0 +1,206 @@
+{
+  "main": {
+    "id": "6d530c798ac41845",
+    "type": "split",
+    "children": [
+      {
+        "id": "86593e6a360ace0d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "32b5ff02c12dd485",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      },
+      {
+        "id": "74c497597f16d1db",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "12d043fbbb5666a4",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "19cf3ab5f42f6b03",
+    "type": "split",
+    "children": [
+      {
+        "id": "0638cb61cccc0095",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b55d88d0bb2a01d1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "3f1943e4f3021a65",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "e2de08bae3baeeb6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "25ee5775bb7b7b70",
+    "type": "split",
+    "children": [
+      {
+        "id": "9c7796414e2c51b7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "644b87f2353418ef",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "c675a6c83c3487f8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "d11317e6af63a6a7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "189fe455b09021d1",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "63fc81288f9256b3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "32b5ff02c12dd485",
+  "lastOpenFiles": [
+    "Clippings/A Field Guide to Rapidly Improving AI Products.md",
+    "Clippings/Production RAG The Chunking, Retrieval, and Evaluation Strategies That Actually Work.md",
+    "Clippings/Evals Skills for Coding Agents.md",
+    "Clippings/Effective context engineering for AI agents.md",
+    "Welcome.md",
+    "Clippings/Building Effective AI Agents.md",
+    "Clippings/A Practical Guide to Becoming an AI-Native Engineer.md",
+    "Clippings"
+  ]
+}
