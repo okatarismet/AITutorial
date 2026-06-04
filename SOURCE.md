@@ -8,16 +8,16 @@ Status legend: `[ ]` not yet ingested · `[x]` ingested into wiki · `[~]` queue
 
 ## Foundations & the discipline — roadmap buckets 1, overview
 
-- [ ] ⭐ **Chip Huyen — Agents (adapted from *AI Engineering*, 2025)** — overview of agents, tools, planning, and evaluating agents. From the author of the definitive AI engineering book.
+- [x] ⭐ **Chip Huyen — Agents (adapted from *AI Engineering*, 2025)** — overview of agents, tools, planning, and evaluating agents. From the author of the definitive AI engineering book.
   https://huyenchip.com/2025/01/07/agents.html
 - [ ] **Chip Huyen — aie-book (resources for AI engineers)** — companion repo to *AI Engineering*; curated resource list across the whole lifecycle.
   https://github.com/chiphuyen/aie-book
 
 ## Prompting & prompt engineering — roadmap bucket 2
 
-- [ ] ⭐ **Anthropic — Interactive Prompt Engineering Tutorial** — hands-on, the best structured intro; the five-step ladder (be clear → examples → chain-of-thought → …).
+- [c] ⭐ **Anthropic — Interactive Prompt Engineering Tutorial** — hands-on, the best structured intro; the five-step ladder (be clear → examples → chain-of-thought → …).
   https://github.com/anthropics/prompt-eng-interactive-tutorial
-- [ ] **OpenAI — Prompt Engineering Guide** — system messages, role assignment, formatting for GPT-class models; pin to model snapshots in production.
+- [c] **OpenAI — Prompt Engineering Guide** — system messages, role assignment, formatting for GPT-class models; pin to model snapshots in production.
   https://developers.openai.com/api/docs/guides/prompt-engineering
 
 ## Context engineering — roadmap bucket 3
@@ -40,7 +40,7 @@ Status legend: `[ ]` not yet ingested · `[x]` ingested into wiki · `[~]` queue
 
 - [ ] ⭐ **Anthropic — Claude Code: Best practices for agentic coding** — how to actually work with an agentic coding tool (CLAUDE.md, subagents, hooks, MCP).
   https://www.anthropic.com/engineering/claude-code-best-practices
-- [ ] **The New Stack — Cursor, Claude Code, and Codex are merging into one AI coding stack** — the 2026 reality: composition over consolidation; teams run 2–3 tools together.
+- [ ] ⚠️ **The New Stack — Cursor, Claude Code, and Codex are merging into one AI coding stack** — the 2026 reality: composition over consolidation; teams run 2–3 tools together. **DEMOTED (audit 2026-06-04): paywalled / body inaccessible; the multi-tool-stack point is covered by Artificial Analysis + Claude Code best practices.**
   https://thenewstack.io/ai-coding-tool-stack/
 - [ ] **Coding Agents Comparison (Artificial Analysis)** — data-driven comparison of Cursor, Claude Code, Copilot, Codex, Aider.
   https://artificialanalysis.ai/agents/coding
@@ -121,6 +121,36 @@ Status legend: `[ ]` not yet ingested · `[x]` ingested into wiki · `[~]` queue
   https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/
 - [ ] **Testing AI's "Lethal Trifecta" with Promptfoo** — how to actually test for it.
   https://www.promptfoo.dev/blog/lethal-trifecta-testing/
+
+---
+
+## Gap-fills added by the 2026-06-04 audit
+Validated candidates that close holes the original list left open (see `v2/READING-ROADMAP.md` for where each slots in). Canonical anchors verified; a few secondary blogs are best-effort.
+
+**Level 0 — mechanics (the biggest gap)**
+- [ ] **Anthropic — Token counting / context windows** — tokens as a budget; tokenizer differences. https://platform.claude.com/docs/en/build-with-claude/token-counting
+- [ ] **Anthropic — Tool use overview** — the request → `tool_use` → execute → return loop that *is* every agent. https://platform.claude.com/docs/en/agents-and-tools/tool-use/overview
+- [ ] **Anthropic — Structured outputs** — schema/grammar-enforced output vs. "please return JSON." https://platform.claude.com/docs/en/build-with-claude/structured-outputs
+
+**Level 1 — spec-driven / context files / parallel agents**
+- [ ] **Addy Osmani — How to write a good spec for AI agents** — the deep "how" behind spec-driven dev. https://addyosmani.com/blog/good-spec/
+- [ ] **AGENTS.md — the open standard** — vendor-neutral "README for agents" (60k+ projects). https://agents.md/
+- [ ] **Claude Code — Run parallel sessions with worktrees** — isolated agents, writer/reviewer pattern. https://code.claude.com/docs/en/worktrees
+
+**Level 3 — a studyable real pipeline + loops + RAG nuance**
+- [ ] **GitHub `spec-kit`** — open-source spec-driven toolkit (constitution→spec→plan→tasks→implement). https://github.com/github/spec-kit
+- [ ] **AWS — Evaluator-optimizer / reflect-refine patterns** — generation→evaluation→refinement as a control loop. https://docs.aws.amazon.com/prescriptive-guidance/latest/agentic-ai-patterns/evaluator-optimizer.html
+
+**Level 4 — security depth + cost**
+- [ ] **OWASP — LLM Prompt Injection Prevention Cheat Sheet** — 13 attack categories + concrete defenses. https://cheatsheetseries.owasp.org/cheatsheets/LLM_Prompt_Injection_Prevention_Cheat_Sheet.html
+- [ ] **Northflank — How to sandbox AI agents** — why containers aren't enough; microVM isolation. https://northflank.com/blog/how-to-sandbox-ai-agents
+- [ ] **Anthropic — Prompt caching** — cached-prefix economics, KV-cache, routing. https://platform.claude.com/docs/en/build-with-claude/prompt-caching
+
+**Level 5 — built from near-zero (honest measurement + governance)**
+- [ ] **Faros — The AI Acceleration Whiplash** — throughput +66% but churn +861%, bugs +54%; durability as the real signal. https://www.faros.ai/blog/ai-acceleration-whiplash-takeaways
+- [ ] **GitClear — AI Copilot Code Quality 2025** — duplication up 4×, refactoring collapsing. https://www.gitclear.com/ai_assistant_code_quality_2025_research
+- [ ] **EY — Defining a CIO Playbook on Agentic AI** — governance maturity, human oversight. https://www.ey.com/en_us/ey-center-for-executive-leadership/defining-a-cio-playbook-on-agentic-ai
+- [ ] **Stanford Digital Economy — The Enterprise AI Playbook** — lessons from 51 deployments. https://digitaleconomy.stanford.edu/
 
 ---
 
