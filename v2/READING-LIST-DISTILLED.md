@@ -75,9 +75,9 @@ You learn the reference **workflow patterns** (routing, parallelization, orchest
 
 You study real **repo-native systems** (coordinator + specialists with shared memory), **quality gates** between stages where a reviewer can reject and loop back, and how **RAG** feeds knowledge to agents — while heeding the warning that *adding AI to broken processes just yields faster broken processes*. **Humans govern, orchestrate, and validate; agents do the work.**
 
-- [ ] **AI-Native SDLC (Joyal Saji)** — https://medium.com/@joyalsaji/ai-native-sdlc-how-we-ship-software-with-ai-agents-ce17ade0e2ee
+- [TRASH] **AI-Native SDLC (Joyal Saji)** — https://medium.com/@joyalsaji/ai-native-sdlc-how-we-ship-software-with-ai-agents-ce17ade0e2ee
   - *First-person account of specialized agents across the lifecycle.*
-- [ ] **CodeRabbit — Agentic SDLC** — https://www.coderabbit.ai/guides/agentic-sdlc
+- [X] **CodeRabbit — Agentic SDLC** — https://www.coderabbit.ai/guides/agentic-sdlc
   - *Agents at every stage; review as the critical gate.*
 - [ ] **GitHub — Squad coordinated agents** — https://github.blog/ai-and-ml/github-copilot/how-squad-runs-coordinated-ai-agents-inside-your-repository/
   - *Reference for repo-native coordinator plus specialist agents.*
